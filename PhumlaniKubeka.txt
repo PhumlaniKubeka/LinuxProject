@@ -1,0 +1,59 @@
+Task1:
+
+1. cd Desktop/
+2. mkdir MyProject
+3. cd MyProject
+4. touch app.js
+   cd ../
+4. mkdir myProject2Linux
+   myProject2Linux
+   cd ../
+5. cp r- myProjectLinux/app.js
+
+
+Task 2:
+
+1. cd Desktop/
+   touch exercise.txt
+   mv exercise.txt /tmp
+   pwd
+   rm -f /tmp/exercise.txt
+
+
+Task 3:
+1. cd Desktop/
+   touch cohort.txt
+   touch recruits.txt
+   touch umuzi.txt
+3. cat cohort.txt recruits.txt umuzi.txt
+4. cat recruits.txt umuzi.txt cohort.txt >> summary 
+5. echo "This is the new content" >> summary
+
+Task 4:
+1. locate umuzi.txt
+2. locate umuzi.txt > search_result
+
+Task 5:
+1. mkdir mydocument
+   cd mydocument/
+   touch pad.txt
+2. cd ../Desktop/mkdir work
+3. cd ../../mydocument/
+   mv pad.txt ../Desktop/work/pad_copy
+4. sudo updatedb
+5. locate pad_copy.txt
+
+
+Task 6:
+1. find -type f -name "*.pdf"
+2. find -type f -name "*.pdf" -exec cp {} ~/Desktop/work \;
+3. find /home -mtime -60 -print
+
+Task 7:
+1. nano my_bio.txt
+2. mkdir ~/Desktop/my_files
+3. mv my_bio.txt ~/Desktop/my_files
+
+
+
+
